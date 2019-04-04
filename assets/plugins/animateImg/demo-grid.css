@@ -1,0 +1,3 @@
+.content{--pieces-width:200px;}
+.grid .pieces{grid-area:1/1/3/2;width:var(--pieces-width);height:calc(var(--pieces-width) * 1.3157);max-width:100%;position:relative;justify-self:end;}
+.grid .piece{pointer-events:none;filter:grayscale(1);}
